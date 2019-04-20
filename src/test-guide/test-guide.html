@@ -1,0 +1,13 @@
+<template>
+  <require from='./color-component/color-component'></require>
+  <require from='./image-component/image-component'></require>
+  <h1>${message}</h1>
+
+  <color-component set-color.call="setColor()"></color-component>
+  <image-component set-image.bind="setImage"></image-component>
+
+  <button
+    data-test="main-caller-button"
+    click.delegate="mainCaller()"
+  >Call Main</button>
+</template>
