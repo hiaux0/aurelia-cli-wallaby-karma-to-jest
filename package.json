@@ -65,7 +65,8 @@
   },
   "jest": {
     "moduleNameMapper": {
-      "^aurelia-binding$": "<rootDir>/node_modules/aurelia-binding"
+      "^aurelia-binding$": "<rootDir>/node_modules/aurelia-binding",
+      "^.*[.](jpg|JPG|gif|GIF|png|PNG|less|LESS|css|CSS)$": "EmptyModule"
     },
     "modulePaths": [
       "<rootDir>/src",
