@@ -54,8 +54,8 @@
   },
   "features": {},
   "unitTestRunner": {
-    "id": "karma",
-    "displayName": "Karma"
+    "id": "jest",
+    "displayName": "Jest"
   },
   "integrationTestRunner": {
     "id": "none",
